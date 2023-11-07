@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+                    /* CONFIGURAÇÕES GLOBAIS DO SITE */
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #07070788;
+    line-height: 2;
+}
+a{
+    transition: color .2s;   
+    color: #49bf9d;
+    text-decoration: none;
+    transition: .2s;
+}
+a:hover{
+    color: #bd0000;
+    border-bottom: 7px solid rgba(255, 0, 0, 0.438);
+}
+/* ===============================================================================================================
+                                                CONFIGURAÇOES DO HEADER
+   ===============================================================================================================
+ */
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 35%;
+    padding: 150px 80px;
+    box-sizing: border-box;
+    background: #525252  url(../images/bg.jpg) no-repeat fixed;
+    background-position: right;
+    background-size: cover;
+}
+
+                    /* TITULO DO HEADER */
+.main-header-title{
+    text-align: right;
+    font-size: 1.7em;
+    line-height: 2em;
+    color: rgba(255, 255, 255, 0.514);
+    font-weight: normal;
+}
+.main-header-title strong{
+    color: white;
+    font-weight: bold;
+}
+
+                    /* LINK DO HEADER */
+
+.link-a{
+    color: rgba(255, 255, 255, 0.39);
+}
+.link-a:hover{
+    text-decoration: none;
+    color: #49bf9d;
+    transition: 1s;
+}
+
+/* ===============================================================================================================
+                                                CONFIGURAÇOES DO MAIN
+   ===============================================================================================================
+ */
+
+                    /* CONFIGURAÇOES DO MAIN */
+
+main{
+    margin-left: 35%;
+    width: 65%;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+
+/* ===============================================================================================================
+   ===============================================================================================================
+ */
