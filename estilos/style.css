@@ -40,7 +40,7 @@ header{
     text-align: right;
     font-size: 1.7em;
     line-height: 2em;
-    color: rgba(255, 255, 255, 0.514);
+    color: #ffffff83;
     font-weight: normal;
 }
 .main-header-title strong{
@@ -51,7 +51,7 @@ header{
                     /* LINK DO HEADER */
 
 .link-a{
-    color: rgba(255, 255, 255, 0.39);
+    color: #ffffff63;
 }
 .link-a:hover{
     text-decoration: none;
@@ -73,6 +73,58 @@ main{
     box-sizing: border-box;
 }
 
+
+.img-top-main{
+    display: flex;
+    padding: 10px;
+}
+
+.img-top-main img{
+    border-radius: 10px;
+}
+
+
+                    /* CONFIGURAÇÕES DAS LISTAS */
+
+.list li{
+    border-bottom: 2px solid #66666683;
+    text-indent: 25px;
+    
+}
+.list li:last-child{
+    border-bottom: none;
+}
+
+
+                    /* LISTAS NÃO ORDENADAS */
+
+.unordered-list{
+    display: flex;
+}
+
+.unordered-list section{
+    width: 45%;
+    padding: 15px;
+}
+
+#icons-list ul{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+#icons-list li{
+    list-style: none;
+    font-size: 3.2em;
+}
+
+                    /* LISTAS ORDENADAS */
+
+.ordered-list ol{
+    width: 42%;
+}
 
 /* ===============================================================================================================
    ===============================================================================================================
