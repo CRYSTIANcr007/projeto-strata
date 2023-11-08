@@ -101,41 +101,43 @@
                 Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
             </p>
 
-            <form action="#" method="post" autocomplete="on">
-                <label>Name: 
-                    <input type="text" name="nome" id="inome" placeholder="Name" autocomplete="name">
-                </label>
-                <label>Email: 
-                    <input type="email" name="email" id="iemal" placeholder="Email" autocomplete="email">
-                </label>
-                <br>
-                <label>Mensage 
-                    <textarea name="msg" id="imsg" cols="50" rows="15" placeholder="mesage:"></textarea>
-                </label>
-                <br>
-                <label>
-                    <input type="submit" value="submit">
-                </label>
-
-            </form>
-
-                                                            <!-- INFOMAÇÕES DO DEV -->
-
-
-            <address>
-                <p>
-                    <span>Endereço: </span>
-                    1234 Somewhere Rd. Nashville, TN 00000 United States
-                </p>
-                <p>
-                    <span>Contato:</span>
-                    000-000-000
-                </p>
-                <p>
-                    <span>Email:</span>
-                    email@server.com
-                </p>
-            </address>
+            <div class="section-getin-pai">
+                <div class="section-getin-filho1">
+                    <form action="#" method="post" autocomplete="on">
+                        <label>Name:
+                            <input type="text" name="nome" id="inome" placeholder="Name" autocomplete="name">
+                        </label>
+                        <label>Email:
+                            <input type="email" name="email" id="iemal" placeholder="Email" autocomplete="email">
+                        </label>
+                        <br>
+                        <label>Mensage
+                            <textarea name="msg" id="imsg" cols="50" rows="15" placeholder="mesage:"></textarea>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="submit" value="submit">
+                        </label>
+                    </form>
+                </div>
+                                                                <!-- INFOMAÇÕES DO DEV -->
+                <div class="section-getin-filho2">
+                    <address>
+                        <p>
+                            <span>Endereço: </span>
+                            1234 Somewhere Rd. Nashville, TN 00000 United States
+                        </p>
+                        <p>
+                            <span>Contato:</span>
+                            000-000-000
+                        </p>
+                        <p>
+                            <span>Email:</span>
+                            email@server.com
+                        </p>
+                    </address>
+                </div>
+            </div>
 
         </section>
 
@@ -208,38 +210,43 @@
                                                                 <!-- AREA DE LINKS -->
 
             <h5>actions</h5>    
-            <section class="pai-section">
+            <section>
                 <div>
-                    <div class="pai-action-a">
+                    <div class="section-div1">
                         <a href="#" class="action-escuro action-medio">Defolt</a>
                         <a href="#" class="action-claro action-medio">Defolt</a>
                     </div>
                     
-                    <div>
-                        <div class="pai-action-a">
-                            <a href="#" class="action-escuro action-pequeno">Small</a>
-                            <a href="#" class="action-claro action-pequeno">Small</a>
-                        </div>
-                        <div class="pai-action-a">                          
-                            <div>
-                                <a href="#" class="action-escuro action-medio">Defolt</a>
-                                <a href="#" class="action-claro action-medio">Defolt</a>
-                            </div>
-                            <div>
-                                <a href="#" class="action-escuro action-pequeno">Small</a>
-                                <a href="#" class="action-claro action-pequeno">Small</a>
-                            </div>
-                        </div>
+                    <div class="section-div2">
+                        <a href="#" class="action-escuro action-pequeno">Small</a>
+                        <a href="#" class="action-claro action-pequeno">Small</a>
                     </div>
                 </div>
-                <div>
-                    <div class="pai-action-a">
-                        <a href="#" class="action-escuro action-grande">Defolt</a>
-                        <a href="#" class="action-claro action-grande">Defolt</a>
+                <!--  -->
+                <div class="section-div-pai">
+                    <div class="section-div3">
+                        <div class="section-div3-1">
+                            <a href="#" class="action-escuro action-medio">Defolt</a>
+                            <br>
+                            <a href="#" class="action-claro action-medio">Defolt</a>
+                        </div>
+                        <div class="section-div3-2">
+                            <a href="#" class="action-escuro action-grande">Small</a>
+                            <a href="#" class="action-claro action-grande">Small</a>
+                        </div>
+                    
                     </div>
-                    <div>
-                        <a href="#" class="action-escuro action-grande">Small</a>
-                        <a href="#" class="action-claro action-grande">Small</a>
+                    <!--  -->
+                    <div class="section-div3">
+                        <div>
+                            <a href="#" class="action-escuro action-pequeno">Small</a>
+                            <br>
+                            <a href="#" class="action-claro action-pequeno">Small</a>
+                        </div>
+                        <div>
+                            <a href="#" class="action-escuro action-grande">Defolt</a>
+                            <a href="#" class="action-claro action-grande">Defolt</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -288,10 +295,12 @@
                         <td>29.99</td>
                     </tr>
                 </tbody>
-                <tr>
-                    <td colspan="2"></td>
-                    <td>100.00</td>
-                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>100.00</td>
+                    </tr>
+                </tfoot>
             </table>
         </section>
         <section>

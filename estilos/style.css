@@ -84,6 +84,23 @@ main{
 }
 
 
+                    /* INFORMAÇOES DO DEV */
+
+.section-getin-pai{
+    display: flex;
+    width: 100%;
+}
+.section-getin-filho1{
+    width: 60%;
+}
+.section-getin-filho2{
+    border: 1px solid #efefef;
+    padding: 15px;
+    width: 40%;
+}
+
+
+
                     /* CONFIGURAÇÕES DAS LISTAS */
 
 .list li{
@@ -133,16 +150,104 @@ main{
 
 
  .pai-action-a{
+    display: flex;
     padding: 20px;
     width: 100%;
-    background-color: #ccc;
  }
 .action-escuro{
+    padding-top: 10px;
     display: inline-block;
-    font-size: 1.2em;
-    width: 100px;
-    background-color: #49bf9d;
-    padding: 10px;
     color: white;
     border-radius: 5px;
+    font-size: 1.2em;
+    background-color: #49bf9d;
+    text-align: center;
 }
+.action-escuro:hover{
+    background-color: red;
+    border-bottom: none;
+    color: white;
+    box-shadow: 0px 4px 5px rgba(65, 0, 0, 0.267);
+}
+.action-claro{
+    display: inline-block;
+    width: 500px;
+    background: white;
+    color: #49bf9d;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.action-claro:hover{
+    color: red;
+    border-color: rgba(192, 0, 0, 0.623);
+    border: 1px solid red;
+    box-shadow: 0px 4px 5px rgba(255, 0, 0, 0.267);
+}
+
+
+.action-pequeno{
+    width: 100px;
+    font-size: .9em;
+    height: 38px;
+    padding: 5.6px;
+}
+
+.action-medio{
+    width: 150px;
+    font-size: 1em;
+    height: 40px;
+    
+}
+.section-div-pai{
+    display: flex;
+}
+.action-grande{
+    width: 90%;
+    font-size: 1.2em;
+    height: 40px;
+}
+
+.section-div1, .section-div3{
+    width: 50%;
+}
+.section-div2 a, .section-div1 a, .section-div3 a{
+    margin: 10px;
+}
+
+/* ===============================================================================================================
+                                                        AREA TABLE
+   ===============================================================================================================
+ */
+
+ table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 0 3em 0;
+ }
+tbody tr:first-child{
+    border-top: 3px solid #66666668;
+}
+tbody tr:last-child{
+    border-bottom: 2px solid #66666668;
+}
+tbody tr td{
+    border-bottom: 1px solid #ccc;
+}
+ table th{
+    text-align: left;
+    background-color: #98989874;
+    padding: .6em;
+ }
+ table td{
+    padding: .6em;
+ }
+ tbody tr:nth-child(odd){
+    background-color: #cccccc29;
+ }
+ tbody tr:nth-child(even){
+    background-color: #cccccc49;
+ }
