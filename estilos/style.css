@@ -127,5 +127,22 @@ main{
 }
 
 /* ===============================================================================================================
+                                                        AREA DO BOTÃO
    ===============================================================================================================
  */
+
+
+ .pai-action-a{
+    padding: 20px;
+    width: 100%;
+    background-color: #ccc;
+ }
+.action-escuro{
+    display: inline-block;
+    font-size: 1.2em;
+    width: 100px;
+    background-color: #49bf9d;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
