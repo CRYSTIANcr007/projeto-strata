@@ -9,7 +9,7 @@ body{
     line-height: 2;
 }
 a{
-    transition: color .2s;   
+    transition: color .1s;   
     color: #49bf9d;
     text-decoration: none;
     transition: .2s;
@@ -17,6 +17,9 @@ a{
 a:hover{
     color: #bd0000;
     border-bottom: 7px solid rgba(255, 0, 0, 0.438);
+}
+hr{
+    margin: 50px 0px;
 }
 /* ===============================================================================================================
                                                 CONFIGURAÇOES DO HEADER
@@ -34,7 +37,13 @@ header{
     background-position: right;
     background-size: cover;
 }
+.imagem-header img{
+    border-radius: 50%;
+}
 
+.imagem-header:hover{
+    border-bottom: none;
+}
                     /* TITULO DO HEADER */
 .main-header-title{
     text-align: right;
@@ -81,6 +90,7 @@ main{
 
 .img-top-main img{
     border-radius: 10px;
+    margin: 1em;
 }
 
 
@@ -257,23 +267,59 @@ tbody tr td{
  }
 
  .form{
-    width: 30em;
- }
- .email-user{
-    width: 600px;
-    height: 250px;
+    width: 100%;
+}
+
+
+.email-user{
+    width: 100%;
+    height: 100px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-evenly;
 }
 .email-user input{
     padding: 15px;
-    border-radius: 5px;
-    
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid #49bf9d;
+    background-color: #cccccc27;
+
+}
+.email-user input:hover{
+    border-bottom: 1px solid #bd0000;
+}
+.email-user input:focus{
+    outline: none;
+    border-bottom: 5px solid #bd0000;
 }
 .email-user label{
     text-align: left;
     margin-bottom: 10px;
+}
+.form-radio{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+ }
+ .form-checkbox{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .imagem-full-unica{
+    border-radius: 10px;
+    margin: 10px auto;
+ }
+
+.imagens-thublr-pai{
+    display: inline-block;
+    width: 100%;
+}
+.imagens-thublr-filhos{
+    border-radius: 10px;
+}
+.imagens-thublr-pai img{
+    width: 31%;
+    border-radius: 10px;
 }
