@@ -107,6 +107,7 @@
                         <label>Name:
                             <input type="text" name="nome" id="inome" placeholder="Name" autocomplete="name">
                         </label>
+                        <br>
                         <label>Email:
                             <input type="email" name="email" id="iemal" placeholder="Email" autocomplete="email">
                         </label>
@@ -117,6 +118,9 @@
                         <br>
                         <label>
                             <input type="submit" value="submit">
+                        </label>
+                        <label>
+                            <input type="reset" value="reset">
                         </label>
                     </form>
                 </div>
@@ -307,46 +311,46 @@
 
                                                                 <!-- area de botao -->
             <section>              
-                <div>
-                    <button class="action-escuro">Defolt</button>
-                    <button class="action-claro">Defolt</button>
-                </div>
-                <div>
-                    <button class="action-escuro">Small</button>
-                    <button class="action-claro">Small</button>
-                </div>
-                <div>
-                    <button class="action-escuro">Defolt</button>
-                    <button class="action-claro">Defolt</button>
-                </div>
-                <div id="largura-inteira">
-                    <button class="action-escuro">Defolt</button>
-                    <button class="action-claro">Defolt</button>
-                </div>
-            </section>
-
-            <section>
-                
-                <div>
-                    <button class="action-escuro">Small</button>
-                    <button class="action-claro">Small</button>
-                </div>
-                <div>
-                    <button class="action-escuro">Small</button>
-                    <button class="action-claro">Small</button>
+                <div class="section-div-pai">
+                    <div class="section-div3">
+                        <div class="section-div3-1">
+                            <button class="action-escuro action-medio buttom">Defolt</button>
+                            <button class="action-escuro action-medio buttom">Defolt</button>
+                        </div>
+                        <div class="section-div3-2">
+                            <buttom class="action-escuro action-grande buttom">Small</buttom>
+                            <buttom class="action-claro action-grande buttom">Small</buttom>
+                        </div>
+                    
+                    </div>
+                    <!--  -->
+                    <div class="section-div3">
+                        <div>
+                            <button class="action-escuro action-pequeno buttom">Small</button>
+                            <button class="action-escuro action-pequeno buttom">Small</button>
+                        </div>
+                        <div>
+                            <button class="action-claro action-grande buttom">Defolt</button>
+                            <button class="action-claro action-grande buttom">Defolt</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 
                                                                 <!-- area de formulario -->
 
             <h5>Form</h5>            
-            <form action="#" method="post" autocomplete="on">
-                <label>Name
-                    <input type="text" name="name" id="name" required autocomplete="name" placeholder="name">
-                </label>
-                <label>Email
-                    <input type="email" name="email" id="email" required autocomplete="email" placeholder="email">
-                </label>
+            <form action="#" method="post" autocomplete="on" class="form">
+                <div class="email-user">
+                    <label>Name
+                        <br>
+                        <input type="text" name="name" id="name" required autocomplete="name" placeholder="name:">
+                    </label>
+                    <label>Email
+                        <br>
+                        <input type="email" name="email" id="email" required autocomplete="email" placeholder="email: ">
+                    </label>
+                </div>
                 <label>
                     <select name="opcoes" id="opcoes">
                         <option value="catego">-Category-</option>

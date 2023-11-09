@@ -251,3 +251,29 @@ tbody tr td{
  tbody tr:nth-child(even){
     background-color: #cccccc49;
  }
+ .buttom{
+    margin: 15px;
+    padding-bottom: 5px;
+ }
+
+ .form{
+    width: 30em;
+ }
+ .email-user{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.email-user input{
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+.email-user label{
+    text-align: left;
+    margin-bottom: 10px;
+}
