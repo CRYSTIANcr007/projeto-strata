@@ -204,34 +204,38 @@ main{
     font-size: .9em;
     height: 38px;
     padding: 5.6px;
+    outline: none;
 }
 
 .action-medio{
     width: 150px;
     font-size: 1em;
     height: 40px;
+    outline: none;
     
-}
-.section-div-pai{
-    display: flex;
 }
 .action-grande{
     width: 90%;
     font-size: 1.2em;
     height: 40px;
+    outline: none;
 }
-
+.section-div-pai{
+    display: flex;
+}
 .section-div1, .section-div3{
     width: 50%;
 }
 .section-div2 a, .section-div1 a, .section-div3 a{
     margin: 10px;
 }
+.buttom{
+    margin: 15px;
+    padding-bottom: 5px;
+    outline: none;
+ }
 
-/* ===============================================================================================================
-                                                        AREA TABLE
-   ===============================================================================================================
- */
+
 
  table{
     border-collapse: collapse;
@@ -261,10 +265,15 @@ tbody tr td{
  tbody tr:nth-child(even){
     background-color: #cccccc49;
  }
- .buttom{
-    margin: 15px;
-    padding-bottom: 5px;
- }
+
+
+
+/* ===============================================================================================================
+                                                        AREA DE FORMULÁRIO
+   ===============================================================================================================
+ */
+
+
 
  .form{
     width: 100%;
@@ -307,19 +316,32 @@ tbody tr td{
     justify-content: space-around;
  }
 
+
+/* ===============================================================================================================
+                                                        AREA DE IMAGEM 9X9
+   ===============================================================================================================*/
  .imagem-full-unica{
     border-radius: 10px;
-    margin: 10px auto;
- }
+    width: 100%;
+    background-color: orange;
+}
 
 .imagens-thublr-pai{
-    display: inline-block;
-    width: 100%;
+    text-align: center;
 }
 .imagens-thublr-filhos{
+    width: 100%;
+}
+.imagens-thublr-filhos img{
+    margin: 3px;
+    width: 30%;
     border-radius: 10px;
 }
-.imagens-thublr-pai img{
-    width: 31%;
-    border-radius: 10px;
+/* ===============================================================================================================
+                                                        AREA DE IMAGEM 3X3  
+   ===============================================================================================================
+ */
+
+.imagem-alinhada-direita{
+    float: right;
 }
