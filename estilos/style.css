@@ -233,6 +233,7 @@ main{
     margin: 15px;
     padding-bottom: 5px;
     outline: none;
+    cursor: pointer;
  }
 
 
