@@ -31,7 +31,7 @@ header{
     top: 0;
     height: 100vh;
     width: 35%;
-    padding: 150px 80px;
+    padding: 25px;
     box-sizing: border-box;
     background: #525252  url(../images/bg.jpg) no-repeat fixed;
     background-position: right;
@@ -342,7 +342,40 @@ tbody tr td{
                                                         AREA DE IMAGEM 3X3  
    ===============================================================================================================
  */
+ 
+ .imagem-alinhada-direita{
+     float: right;
+    }
+    
+    
+/* ===============================================================================================================
+                                                            FOOTER 
+       ===============================================================================================================
+*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+    padding: 0px 15px 150px 0px;
+    text-align: right;
+    font-size: 2.5em;
+}
 
-.imagem-alinhada-direita{
-    float: right;
+.div-pai-footer{
+    width: 204px;
+    height: 81px;
+    position: absolute;
+    right: 0px;
+    transition: .2s all;
+}
+.caixa{
+    padding: 10px;
+}
+.div-pai-footer:hover .caixa{
+    filter: blur(3px);
+    transform: scale(0.98);
+}
+.caixa:hover{
+    filter: blur(0px) !important;
+    color: red;
 }
